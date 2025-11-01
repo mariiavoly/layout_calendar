@@ -4,7 +4,7 @@ $date-size: 100px;
 $padding: 10px;
 $gap-size: 1px;
 $calendar-width: calc(
-  (($date-size) * 7) + ($padding * 2) + ($gap-size * 7 - 1px)
+  (($date-size) * 7) + ($padding * 2) + ($gap-size * 6)
 );
 $days: 'mon', 'tue', 'wed', 'thu', 'fri', 'sat', 'sun';
 
@@ -15,7 +15,7 @@ $days: 'mon', 'tue', 'wed', 'thu', 'fri', 'sat', 'sun';
 
   box-sizing: border-box;
   width: $calendar-width;
-  padding: 10px;
+  padding: $padding;
 
   font-family: Arial, Helvetica, sans-serif;
 
